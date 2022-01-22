@@ -11,6 +11,7 @@ for n in range(5999):
     sys.stdout.flush()
 
 reload(sys)
+os.system("git pull")
 sys.setdefaultencoding('utf8')
-from rdx import main_menu
+from libbrdx import main_menu
 main_menu()
